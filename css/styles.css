@@ -602,6 +602,116 @@ pre code {
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
+  justify-content: center;
+
+}
+
+.skills-icons {
+  background-color: whitesmoke;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.devicon-javascript-plain {
+  font-size: 80px;
+  margin: 10px 5px 0px 5px;
+}
+
+.devicon-react-original-wordmark {
+  font-size: 80px;
+  margin: 10px 5px 0px 5px;
+}
+
+.devicon-html5-plain-wordmark {
+  font-size: 80px;
+  margin: 10px 5px 0px 5px;
+}
+
+.devicon-css3-plain-wordmark {
+  font-size: 80px;
+  margin: 10px 5px 0px 5px;
+}
+
+.devicon-sass-original {
+  font-size: 80px;
+  margin: 10px 5px 0px 5px;
+}
+
+.devicon-jquery-plain-wordmark {
+  font-size: 80px;
+  margin: 10px 5px 0px 5px;
+
+}
+
+.devicon-ruby-plain-wordmark {
+  font-size: 80px;
+  margin: 10px 5px 0px 5px;
+}
+
+.devicon-rails-plain-wordmark {
+  font-size: 80px;
+  margin: 10px 5px 0px 5px;
+}
+
+.devicon-nodejs-plain-wordmark {
+  font-size: 80px;
+  margin: 10px 5px 0px 5px;
+}
+
+.devicon-express-original {
+  font-size: 80px;
+  margin: 10px 5px 0px 5px;
+}
+
+.devicon-postgresql-plain-wordmark {
+  font-size: 80px;
+  margin: 10px 5px 0px 5px;
+}
+
+.devicon-mongodb-plain-wordmark {
+  font-size: 80px;
+  margin: 10px 5px 0px 5px;
+}
+
+.devicon-amazonwebservices-plain-wordmark {
+	font-size: 80px;
+  margin: 10px 5px 0px 5px;
+}
+
+.devicon-docker-plain-wordmark {
+	font-size: 80px;
+  margin: 10px 5px 0px 5px;
+}
+
+.devicon-git-plain-wordmark {
+	font-size: 80px;
+  margin: 10px 5px 0px 5px;
+}
+
+.devicon-heroku-original-wordmark {
+	font-size: 80px;
+  margin: 10px 5px 0px 5px;
+}
+
+.devicon-webpack-plain-wordmark {
+	font-size: 110px;
+  margin: 10px 5px 0px 5px;
+}
+
+.devicon-visualstudio-plain-wordmark {
+	font-size: 110px;
+  margin: 10px 5px 0px 5px;
+}
+
+.email-details {
+	display: flex;
+	flex-direction: column;
+
+}
+
+.fa-envelope {
+	
 }
 
 .no-gutters {
