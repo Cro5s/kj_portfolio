@@ -704,17 +704,27 @@ pre code {
   margin: 10px 5px 0px 5px;
 }
 
+.footer-icons {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 10px;
+}
+
+.fa-linkedin {
+	font-size: 40px;
+	margin: 10px;
+}
+
+.fa-github {
+	font-size: 40px;
+	margin: 10px;
+}
+
 .fa-angellist {
-	font-size: 60px;
+	font-size: 40px;
+	margin: 10px;
 }
 
-.angel-list {
-
-}
-
-.fa-envelope {
-
-}
 
 .no-gutters {
   margin-right: 0;
