@@ -704,14 +704,16 @@ pre code {
   margin: 10px 5px 0px 5px;
 }
 
-.email-details {
-	display: flex;
-	flex-direction: column;
+.fa-angellist {
+	font-size: 60px;
+}
+
+.angel-list {
 
 }
 
 .fa-envelope {
-	
+
 }
 
 .no-gutters {
@@ -7986,7 +7988,7 @@ button.bg-dark:focus {
 
 .mr-auto,
 .mx-auto {
-  margin-right: auto !important;
+  /* margin-right: auto !important; */
 }
 
 .mb-auto,
