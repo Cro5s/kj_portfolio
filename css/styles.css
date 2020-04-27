@@ -607,14 +607,13 @@ pre code {
 }
 
 .about-profile {
-	float: left;
-	margin: 70px 0px 10px 50px;
+	margin-top: 90px;
 }
 
 .headshot {
-	width: 150px;
-	height: 150px;
-	border-radius: 100px;
+	width: 20%;
+	height: 30%;
+	border-radius: 100%;
 
 }
 
@@ -718,15 +717,49 @@ pre code {
 
 .project-details-div {
 	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.col-lg, .col-sm-6 {
+	align-self: center;
+}
+
+.project-div {
+	background-color: whitesmoke;
+	width: 60vw;
+	text-align: center;
+	align-self: center;
+	padding: 30px;
+	margin-bottom: 30px;
+}
+
+.project-tech {
+
 }
 
 .project-details {
-	background-color: whitesmoke;
-	width: 70vw;
-	font-size: medium;
-	padding: 30px;
-	text-align: center;
+
+}	
+
+.bullets-ul {
+
+}	
+
+.bullets {
+	margin-bottom: 10px;
+	text-align: left;
 }
+
+.project-links {
+	display: flex;
+	justify-content: center;
+}
+
+.project-link-divider {
+	margin: 0px 10px 0px 10px;
+}
+
 
 .footer-icons {
 	display: flex;
