@@ -606,6 +606,18 @@ pre code {
 
 }
 
+.about-profile {
+	float: left;
+	margin: 70px 0px 10px 50px;
+}
+
+.headshot {
+	width: 150px;
+	height: 150px;
+	border-radius: 100px;
+
+}
+
 .skills-icons {
   background-color: whitesmoke;
   display: flex;
@@ -702,6 +714,18 @@ pre code {
 .devicon-visualstudio-plain-wordmark {
 	font-size: 110px;
   margin: 10px 5px 0px 5px;
+}
+
+.project-details-div {
+	display: flex;
+}
+
+.project-details {
+	background-color: whitesmoke;
+	width: 70vw;
+	font-size: medium;
+	padding: 30px;
+	text-align: center;
 }
 
 .footer-icons {
