@@ -610,20 +610,19 @@ pre code {
 	margin-top: 90px;
 }
 
-@media screen and (max-width: 1440px) and (min-width: 900px) {
+.headshot {
+  width: 20%;
+  height: 30%;
+  border-radius: 100%;
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1280px) {
   .headshot {
     width: 20%;
     height: 30%;
     border-radius: 100%;
-    transform: rotate(90deg);
+    transform: rotate(-0deg);
   }
-}
-
-.headshot {
-	width: 20%;
-	height: 30%;
-  border-radius: 100%;
-  transform: rotate(0deg);
 }
 
 .skills-icons {
