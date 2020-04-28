@@ -614,15 +614,15 @@ pre code {
   width: 20%;
   height: 30%;
   border-radius: 100%;
-  transform: rotate(90deg);
+  /* transform: rotate(90deg); */
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1440px) {
   .headshot {
     width: 20%;
     height: 30%;
     border-radius: 100%;
-    /* transform: rotate(90deg); */
+    transform: rotate(90deg);
   }
 }
 
