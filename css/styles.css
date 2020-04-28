@@ -610,11 +610,20 @@ pre code {
 	margin-top: 90px;
 }
 
+@media screen and (max-width: 1440px) and (min-width: 900px) {
+  .headshot {
+    width: 20%;
+    height: 30%;
+    border-radius: 100%;
+    transform: rotate(90deg);
+  }
+}
+
 .headshot {
 	width: 20%;
 	height: 30%;
-	border-radius: 100%;
-
+  border-radius: 100%;
+  transform: rotate(0deg);
 }
 
 .skills-icons {
@@ -2629,6 +2638,7 @@ textarea.form-control {
 .btn.disabled, .btn:disabled {
   opacity: 0.65;
 }
+
 a.btn.disabled,
 fieldset:disabled a.btn {
   pointer-events: none;
